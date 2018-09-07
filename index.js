@@ -5,6 +5,7 @@
  **/
 
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import {
   StyleSheet,
   View,
@@ -52,14 +53,14 @@ const styles = StyleSheet.create({
 
 class PercentageCircle extends Component {
   propTypes: {
-    color: React.PropTypes.string,
-    bgcolor: React.PropTypes.string,
-    innerColor: React.PropTypes.string,
-    radius: React.PropTypes.number,
-    percent: React.PropTypes.number,
-    borderWidth: React.Proptypes.number,
-    textStyle: React.Proptypes.array,
-    disabled: React.PropTypes.bool,
+    color: PropTypes.string,
+    bgcolor: PropTypes.string,
+    innerColor: PropTypes.string,
+    radius: PropTypes.number,
+    percent: PropTypes.number,
+    borderWidth: Proptypes.number,
+    textStyle: Proptypes.array,
+    disabled: PropTypes.bool,
   }
 
 
